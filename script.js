@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         const mensajeRepetir = document.createElement("div");
         mensajeRepetir.classList.add("mensaje-repetir");
-        mensajeRepetir.innerHTML = "🔼 Repítelo las veces que quieras jeje";
+        mensajeRepetir.innerHTML = "🔼 Repítelo las veces que quieras jeje (desliza hacia abajo si estás en tu celu)";
         document.body.appendChild(mensajeRepetir);
     });
 
