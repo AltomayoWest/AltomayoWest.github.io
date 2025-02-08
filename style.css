@@ -1,0 +1,79 @@
+body {
+    background-image: url('/images/fondo_propuesta.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+#contenedor {
+    background: rgba(255, 255, 255, 0.748);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76);
+    color: black;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    filter: brightness(80%);
+    transition: 0.5s ease;
+}
+
+#siBtn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#noBtn {
+    background-color: #cccccc;
+    color: black;
+}
+
+#noBtn.moviendo {
+    position: absolute;
+}
+
+.imagen-romantica {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.gif-inicial {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.gif-no {
+    width: 180px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.mensaje-repetir {
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
